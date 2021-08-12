@@ -8,12 +8,13 @@ using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Threading.Tasks;
+using WebAPI.Repositories;
 
 namespace WebAPI.Extensions
 {
     public static class ServiceExtensions
-    {    
-        // Cho phép Angular kết nối tới.      
+    {
+        // Angular kết nối tới.      
         public static void ConfigureCors(this IServiceCollection services)
         {
             services.AddCors(options =>
@@ -33,14 +34,15 @@ namespace WebAPI.Extensions
             });
         }
 
-        // Xử dụng ghi log.
+        // Add Log.
         public static void ConfigureLoggerService(this IServiceCollection services)
         {
             services.AddSingleton<ILoggerManager, LoggerManager>();
         }
 
+        // Add Swagger
         public static void ConfigureSwagger(this IServiceCollection services)
-        {           
+        {
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
@@ -67,6 +69,14 @@ namespace WebAPI.Extensions
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                 c.IncludeXmlComments(xmlPath);
             });
+        }
+
+        // Add Repository
+        public static void ConfigureRepositories(this IServiceCollection services)
+        {
+           
+            services.AddScoped<AccountRepository>();
+            services.AddScoped<OwnerRepository>();
         }
     }
 }

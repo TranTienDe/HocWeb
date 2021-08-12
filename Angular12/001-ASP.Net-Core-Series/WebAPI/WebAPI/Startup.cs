@@ -16,6 +16,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using WebAPI.Data;
 using WebAPI.Extensions;
+using WebAPI.Repositories;
 
 namespace WebAPI
 {
@@ -41,6 +42,7 @@ namespace WebAPI
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService(); //Add logger
             services.ConfigureSwagger();
+            services.ConfigureRepositories();           
 
             services.AddControllers();
         }
