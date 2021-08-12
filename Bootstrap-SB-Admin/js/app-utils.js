@@ -1,6 +1,9 @@
 function submitLogin() {
-    let email = document.getElementById('inputEmail').value;
-    let password = document.getElementById('inputPassword').value;
+    //let email = document.getElementById('inputEmail').value;
+    //let password = document.getElementById('inputPassword').value;
+    const email = $('#inputEmail').val();
+    const password = $('#inputPassword').val();
+    
     console.log("Email = ", email);
     console.log('Password: ', password);
 
