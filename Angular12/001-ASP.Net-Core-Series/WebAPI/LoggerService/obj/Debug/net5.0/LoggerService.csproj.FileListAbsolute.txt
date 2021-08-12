@@ -2,7 +2,6 @@ D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\LoggerServic
 D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\LoggerService\bin\Debug\net5.0\LoggerService.dll
 D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\LoggerService\bin\Debug\net5.0\ref\LoggerService.dll
 D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\LoggerService\bin\Debug\net5.0\LoggerService.pdb
-D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\LoggerService\obj\Debug\net5.0\LoggerService.csproj.AssemblyReference.cache
 D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\LoggerService\obj\Debug\net5.0\LoggerService.GeneratedMSBuildEditorConfig.editorconfig
 D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfoInputs.cache
 D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\LoggerService\obj\Debug\net5.0\LoggerService.AssemblyInfo.cs

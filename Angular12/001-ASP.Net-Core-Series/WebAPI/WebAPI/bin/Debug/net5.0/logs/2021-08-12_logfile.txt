@@ -3,3 +3,7 @@
 2021-08-12 21:17:06.3469 DEBUG Here is debug message from the controller.
 2021-08-12 21:17:06.3588 WARN Here is warn message from the controller.
 2021-08-12 21:17:06.3588 ERROR Here is error message from the controller.
+2021-08-12 22:11:04.6941 INFO Here is info message from the controller.
+2021-08-12 22:11:04.7080 DEBUG Here is debug message from the controller.
+2021-08-12 22:11:04.7179 WARN Here is warn message from the controller.
+2021-08-12 22:11:04.7179 ERROR Here is error message from the controller.
