@@ -10,6 +10,15 @@
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
+        <script>
+            window.onload = function () {
+                const email = sessionStorage.getItem('email');
+                console.log('email: ' + email);
+                if(email === null || email === '') window.location.replace('login.html');
+                console.log('Window onload.');
+            }
+        </script>
+        <script src="js/app-utils.js"></script>
     </head>
     <body class="sb-nav-fixed">
         <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
@@ -32,7 +41,7 @@
                         <li><a class="dropdown-item" href="#!">Settings</a></li>
                         <li><a class="dropdown-item" href="#!">Activity Log</a></li>
                         <li><hr class="dropdown-divider" /></li>
-                        <li><a class="dropdown-item" href="#!">Logout</a></li>
+                        <li><span class="dropdown-item" onclick="logOut()" style="cursor: pointer;">Logout</span></li>
                     </ul>
                 </li>
             </ul>
