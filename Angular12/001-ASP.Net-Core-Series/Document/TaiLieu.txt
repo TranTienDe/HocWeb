@@ -1,0 +1,13 @@
+
+# Trang chính
+https://code-maze.com/net-core-series/
+
+#001 - ASP.NET Core Web API – Creating MySQL Database
+https://code-maze.com/net-core-web-development-part1/
+
+# 002 - ASP.NET Core Web API – .NET Core Service Configuration
+https://code-maze.com/net-core-web-development-part2/
+
+# ASP.NET Core Web API – Logging With NLog
+https://code-maze.com/net-core-web-development-part3/
+
