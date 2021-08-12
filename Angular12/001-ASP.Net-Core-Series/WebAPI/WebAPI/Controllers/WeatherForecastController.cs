@@ -31,8 +31,11 @@ namespace WebAPI.Controllers
             {
                 //return NotFound();
 
-                string message = $"About page visited at {DateTime.UtcNow.ToLongTimeString()}";
-                _logger.LogInfo(message);
+                //string message = $"About page visited at {DateTime.UtcNow.ToLongTimeString()}";
+                _logger.LogInfo("Here is info message from the controller.");
+                _logger.LogDebug("Here is debug message from the controller.");
+                _logger.LogWarn("Here is warn message from the controller.");
+                _logger.LogError("Here is error message from the controller.");
 
                 var rng = new Random();
                 return Ok(Enumerable.Range(1, 5).Select(index => new WeatherForecast

@@ -1,1 +1,5 @@
 2021-08-12 21:09:25.9362 INFO About page visited at 2:09:25 PM
+2021-08-12 21:17:06.3326 INFO Here is info message from the controller.
+2021-08-12 21:17:06.3469 DEBUG Here is debug message from the controller.
+2021-08-12 21:17:06.3588 WARN Here is warn message from the controller.
+2021-08-12 21:17:06.3588 ERROR Here is error message from the controller.
