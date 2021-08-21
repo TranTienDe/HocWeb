@@ -1,0 +1,12 @@
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\bin\Debug\net5.0\EmailService.deps.json
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\bin\Debug\net5.0\EmailService.dll
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\bin\Debug\net5.0\ref\EmailService.dll
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\bin\Debug\net5.0\EmailService.pdb
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\obj\Debug\net5.0\EmailService.csproj.AssemblyReference.cache
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\obj\Debug\net5.0\EmailService.GeneratedMSBuildEditorConfig.editorconfig
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\obj\Debug\net5.0\EmailService.AssemblyInfoInputs.cache
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\obj\Debug\net5.0\EmailService.AssemblyInfo.cs
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\obj\Debug\net5.0\EmailService.csproj.CoreCompileInputs.cache
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\obj\Debug\net5.0\EmailService.dll
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\obj\Debug\net5.0\ref\EmailService.dll
+D:\T2dsoft\MyGitHub\HocWeb\Angular12\001-ASP.Net-Core-Series\WebAPI\EmailService\obj\Debug\net5.0\EmailService.pdb
