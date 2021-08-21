@@ -1,0 +1,13 @@
+<section style="margin-left: 15px;">
+  <h2>List of Claims</h2>
+
+  <div *ngIf="showError" class="alert alert-danger" role="alert">
+    {{ errorMessage }}
+  </div>
+
+  <ul>
+    <li *ngFor="let claim of claims">
+      {{ claim.type }} : {{ claim.value }}
+    </li>
+  </ul>
+</section>
